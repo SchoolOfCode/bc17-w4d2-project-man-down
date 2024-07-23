@@ -1,0 +1,15 @@
+{
+  "name": "creating-api-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start":"app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },"type":"module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
