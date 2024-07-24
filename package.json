@@ -4,12 +4,14 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start":"app.js",
+    "start": "app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },"type":"module",
+  },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "helmet": "^7.1.0"
   }
 }
