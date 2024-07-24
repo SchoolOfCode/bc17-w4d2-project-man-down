@@ -1,8 +1,9 @@
 import express from 'express'
 const app = express()
 const port = 3000
-
-import helmet from 'helmet'
+const activities= 
+    
+ import helmet from 'helmet'
 app.use(helmet())
 
 app.get('/',(req, res)=> {
@@ -12,3 +13,10 @@ app.get('/',(req, res)=> {
 app.listen(port, () => {
     console.log(`app listening on port ${port}`)
   })
+
+  app.get('/activities/:id', async (req,res) => {
+    try {activities(req,body))
+        
+
+              
+  
