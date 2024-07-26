@@ -1,0 +1,34 @@
+[
+  {
+    "id": "pushups",
+    "duration": "30",
+    "type": "upperbody",
+    "date": "03/09/2024"
+  },
+  {
+    "id": "running",
+    "duration": "40",
+    "type": "cardio",
+    "date": "04/09/2024"
+  },
+  {
+    "id": "squats",
+    "duration": "50",
+    "type": "lowerbody",
+    "date": "05/09/2024"
+  },
+  {
+    "id": "cd62e67f-68f8-4063-bbf5-9938c24fc0a2",
+    "duration": "45",
+    "type": "cardio",
+    "date": "07/26/2024",
+    "activity_submitted": 1721984148147
+  },
+  {
+    "id": "a2cc2a60-9a92-46d0-9968-c79edaa1274b",
+    "duration": "4000",
+    "type": "sprinting",
+    "date": "07/26/1999",
+    "activity_submitted": 1721984676595
+  }
+]
