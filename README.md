@@ -1,4 +1,10 @@
-1.Git clone the repo
-2.npm install
-3.npm start
-4.try out the get request
+---- 1. Create a folder to hold our cloned repo
+---- 2. Go into your current terminal and CD the folder
+---- 3. Clone down our repo by going git clone (url) . (dot will allow you to put all the files into your current folder)
+---- 4. Once cloned open the file in your editor of choice
+---- 5. Make sure to npm install all the dependencies 
+---- 6. Try our get request in postman or terminal with curl(http://localhost:3000/),This should display hello world. 
+---- 7. Try fetching our get id with (http://localhost:3000/activities/example), put one of our ID's in the file to retrieve back data corresponding to it.
+---- 8. Try out our post with an object relating to all the keys then typing the value you would like.
+---- 
+---- 

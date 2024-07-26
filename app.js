@@ -77,6 +77,23 @@ app.get('/activities/:id',(req, res) => {
     // Send a success response
     res.status(200).json(activityToAdd);
 });
+  app.delete('/activities/:id', (req, res) => {
+    const activityId = req.params.id;
+    console.log(`Requested to delete activity ID: ${activityId}`);
+  
+    // Read current activities
+    let activities = readActivities();
+  
+    // Find and remove the activity
+    const activityIndex = activities.findIndex(activity => activity.id === activityId);
+    if (activityIndex !== -1) {
+      activities.splice(activityIndex, 1);
+      writeActivities(activities);
+      res.status(200).send(`you have deleted${activityId}`);
+    } else {
+      res.status(404).send('Activity not found');
+    }
+  });
 
 //listening to the port
 app.listen(port, () => {
